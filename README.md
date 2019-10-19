@@ -36,6 +36,12 @@
 
   * 查询商户资料
 
+## 使用说明
+
+  本库依赖的lua运行时框架在[这里](https://github.com/CandyMi/core_framework).
+
+  将`cloud`文件夹复制到`lualib`库内即可完成使用安装, 其它框架Lua依赖库需要自行修改源码与依赖.
+
 ## 使用示例
 
 ```lua
@@ -72,7 +78,6 @@ local key = "wodjwaiodwadka"
 -- 获取用户 OPENID
 -- utils.mch_openid(mchid, key, callback_url)
 ```
-
 
 ## 协议
 
